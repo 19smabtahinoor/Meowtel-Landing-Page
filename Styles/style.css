@@ -56,7 +56,6 @@ body::-webkit-scrollbar-thumb{
 
 .reviews_card{
     margin-top:50%;
-    transform:translateY(-50%,-50%);
 }
 
 .yellow_star_image{
@@ -90,13 +89,15 @@ body::-webkit-scrollbar-thumb{
 .adsbanner{
     background-image:url("../Images/banner.svg");
     background-repeat:no-repeat;
-    background-size:contain;
-    width:100%;
+    background-size:cover;
+    width:90%;
+    height:200px;
+    border-radius:20px;
 }
 
 .bannerCatImage{
 
-    top: -21.5%;
+    top: -16.5%;
     right: 57px;
 }
 .adsBanner2{
@@ -114,7 +115,9 @@ body::-webkit-scrollbar-thumb{
 .app_download_Image{
     width:150px;
 }
-
+.trustPilot{
+    width:150px;
+}
 .cat_Image{
     width: 259px;
     position: relative;
@@ -181,6 +184,17 @@ body::-webkit-scrollbar-thumb{
     }
     .footerImage {
         display:none;
+    }
+    .adsbanner{
+        height:250px;
+        width:400px;
+        border-radius:20px;
+        
+    }
+    .bannerCatImage{
+
+        top: -14.5%;
+        right: 57px;
     }
 }
 
