@@ -4,6 +4,7 @@ body{
     margin:0px;
     padding:0px;
     font-family: 'Quicksand', sans-serif;
+    overflow-x:hidden;
 }
 body::-webkit-scrollbar{
     width:5px;
@@ -22,7 +23,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 .searchInputs{
-    border-right:1px solid #00000040;
+    /* border-right:1px solid #00000040; */
     width:200px;
 }
 
@@ -70,6 +71,7 @@ body::-webkit-scrollbar-thumb{
     /* width:250px; */
     height:410px;
     z-index:999;
+    background: #fff;
 }
 .why_sitters_card{
     height:350px;
@@ -82,10 +84,113 @@ body::-webkit-scrollbar-thumb{
     background-repeat:no-repeat;
     background-size:contain;
     background-position: right 0% bottom 45%;
+    z-index:-1;
 }
 
-.ads_Banner{
-    background-image:url("../Images/adsbanner.png");
-    background-size:contain;
+.adsbanner{
+    background-image:url("../Images/banner.svg");
     background-repeat:no-repeat;
+    background-size:contain;
+    width:100%;
+}
+
+.bannerCatImage{
+
+    top: -21.5%;
+    right: 57px;
+}
+.adsBanner2{
+    background-image:url("../Images/bannerbg.svg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+}
+
+.bannerwoman_Image{
+    height:400px;
+    width:100%;
+    object-fit:cover;
+}
+.app_download_Image{
+    width:150px;
+}
+
+.cat_Image{
+    width: 259px;
+    position: relative;
+    margin-top: -44%;
+}
+/* .testmonial_section{
+    background-image:url("../Images/halfcircle.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: left 0% bottom 45%;
+} */
+
+.customer_Image{
+    position: relative;
+    top: -25%;
+    /* left: 42%;
+    transform: translateX(-50%,-50%);
+    width: 121px; */
+
+}
+
+.col-span-1.workscard.bg-white.rounded-xl.shadow-lg.box-border.p-8 {
+    margin-top: 20%;
+}
+
+.tesimonial_card{
+    box-shadow:  42px 42px 99px #c5c5c5,
+             -42px -42px 99px #fbfbfb;
+}
+
+.col-span-1.second_divison {
+    padding-top: 29%;
+    padding-left: 25%;
+}
+
+
+.col-span-1.third_division {
+    padding-top: 29%;
+    padding-left: 2%;
+}
+.fourth_divison{
+    padding-top: 25%;
+}
+
+.social_icons{
+    width:30px;
+    height:30px;
+
+}
+
+.footerImage {
+    margin-top: -102%;
+    display:block;
+}
+
+.payment_card{
+    width:40px;
+}
+
+@media only screen and (max-width:500px){
+    .col-span-1.second_divison {
+        padding-top: 29%;
+        padding-left:0px;
+    }
+    .footerImage {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:786px){
+    .footerImage {
+        display:none;
+    }
+}
+@media only screen and (max-width:992px){
+    .footerImage {
+        display:none;
+    }
 }
