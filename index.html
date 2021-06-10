@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meowtel</title>
+    <link href="https://unpkg.com/tailwindcss@2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="Styles/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="max-w-screen-xl mx-auto">
+
+
+        <!-- Start Navbar Section -->
+        <header class="flex flex-row flex-grow items-center relative top-0 left-0 px-5">
+            <div class="flex flex-row flex-grow items-center">
+                <img src="./Images/meowtellogo.svg" alt="meowtel Logo" />
+            </div>
+            <nav class="flex flex-row flex-grow items-center">
+                <div class="flex flex-row  items-center relative">
+                    <img class="absolute top-3 left-2" src="Images/search.svg" alt="search icon" />
+                    <input class="bg-gray-100 rounded-full py-2 pl-9 focus:outline-none" type="text"
+                        placeholder="Find a cat sitter" />
+                </div>
+
+                <div class="flex flex-row flex-grow items-center">
+                    <ul class="flex flex-row flex-grow items-center space-x-8 pl-20">
+                        <li><span class="text-gray-500">Trust</span></li>
+                        <li><span class="text-gray-500">Blog</span></li>
+                        <li class="flex items-center space-x-3">
+                            <img src="Images/call.png" alt="call image" />
+                            <span class="text-gray-500">1-844-MEOWTEL</span>
+                        </li>
+                    </ul>
+                    <div class="flex flex-row items-center space-x-6">
+                        <button
+                            class="bg-yellow-400 text-white tracking-wide uppercase py-2 px-5 rounded-lg font-semibold text-sm focus:outline-none">
+                            Sign Up
+                        </button>
+                        <button
+                            class="transition duration-500 ease-in-out border border-yellow-400 uppercase py-2 px-5 rounded-lg font-semibold text-sm text-yellow-400 cursor-pointer hover:bg-yellow-400 hover:text-white  classfocus:outline-none">
+                            Login
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Navbar Section  -->
+
+        <!-- Start Home Section  -->
+        <section class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 px-5">
+            <div class="col-span-1 sm:order-2 md:order-1 lg:order-1">
+                <div class="flex flex-col justify-center h-96">
+                    <h1 class="text-6xl font-bold py-4">Find an in-home <br>cat sitter</h1>
+                    <p class="text-gray-500 font-normal">Our nationwide network of trusted and insured cat <br> sitters
+                        can scoop,feed,provide lots of cuddles, and <br> even administer medications.Allow us to bring
+                        our 5-<br>star,purrfect hospitality to you!</p>
+                </div>
+
+                <div class="grid grid-cols-4 place-items-center bg-gray-100 shadow-lg rounded-lg py-3">
+                    <div class="box-border pl-14  col-span-1 searchInputs">
+                        <h3 class="text-md font-bold pb-2">Location</h3>
+                        <input class="bg-gray-100 focus:outline-none" type="text" placeholder="Add zip code">
+                    </div>
+
+                    <div class="box-border pl-14 col-span-1 searchInputs">
+                        <h3 class="text-md font-bold pb-2">Start date</h3>
+                        <input class="bg-gray-100 focus:outline-none" type="text" placeholder="Add date">
+                    </div>
+
+                    <div class="box-border pl-14 col-span-1 searchInputs">
+                        <h3 class="text-md font-bold pb-2">End date</h3>
+                        <input class="bg-gray-100 focus:outline-none" type="text" placeholder="Add date">
+                    </div>
+
+                    <div class="rounded-lg col-span-1 cursor-pointer">
+                        <img class="rounded-lg" src="Images/serachDate.png" alt="search icon" />
+                    </div>
+                </div>
+
+                <div class="flex flex-row items-center justify-center space-x-2">
+                    <h3 class="font-semibold text-gray-500 text-center py-3">See more filters</h3>
+                    <svg class="w-5 h-5 rounded-full p-1 bg-yellow-400 text-white" fill="none" stroke="currentColor"
+                        viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </div>
+
+            </div>
+
+            <div class="sm:order-1 md:order-2 lg:order-2">
+                <img class="home_page_cat_image" src="Images/cat.png" alt="home page cat image" />
+            </div>
+        </section>
+        <!-- End Home Section  -->
+
+
+        <!-- Start meowtel works section  -->
+
+        <section class="px-5 py-16 relative">
+
+
+
+            <div class="flex flex-col justify-center items-center">
+                <h1 class="text-4xl text-center pb-3">How <b class="font-extrabold">Meowtel Works?</b></h1>
+                <p class="text-gray-500 font-normal text-center">Cats don't do well outside of their home environment.
+                    Our cat sitters <br> bring the purrfect hospitality to you</p>
+            </div>
+
+            <div class="relative grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-16 px-8 py-8">
+
+
+                <!-- card start here  -->
+                <div class="relative workscard bg-white rounded-lg shadow-lg box-border p-5 pt-4">
+                    <div class="absolute card_image_1">
+                        <h1 class="text-gray-300 font-bold ">1</h1>
+                    </div>
+                    <div class="flex flex-col justify-center items-center overflow-hidden">
+                        <img class="transform transition duration-700 ease-in-out hover:scale-105"
+                            src="Images/reserve.png" alt="Search and reserve image" />
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-extrabold uppercase text-center">Search and Reserve</h3>
+                        <p class="block text-center text-gray-500 font-normal">Meowtel cat sitter is 5-step <br>vetted &
+                            fully insured -we <br>are the car
+                            whisperers!</p>
+                    </div>
+                </div>
+                <!-- card end here -->
+
+
+                <!-- card start here  -->
+                <div class="relative workscard bg-white rounded-lg shadow-lg box-border p-5 pt-4">
+                    <div class="absolute card_image_1">
+                        <h1 class="text-gray-300 font-bold ">2</h1>
+                    </div>
+                    <div class="flex flex-col justify-center items-center overflow-hidden">
+                        <img class="transform transition duration-700 ease-in-out hover:scale-105" src="Images/meet.png"
+                            alt="Search and reserve image" />
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-extrabold uppercase text-center">Search and Reserve</h3>
+                        <p class="block text-center text-gray-500 font-normal">The cat sitter will meet<br>you & link
+                            kitties to ensure<br>it's the purrfect match</p>
+                    </div>
+                </div>
+                <!-- card end here -->
+
+
+                <!-- card start here  -->
+                <div class="relative workscard bg-white rounded-lg shadow-lg box-border p-5 pt-4">
+                    <div class="absolute card_image_1">
+                        <h1 class="text-gray-300 font-bold ">3</h1>
+                    </div>
+                    <div class="flex flex-col justify-center items-center overflow-hidden">
+                        <img class="transform transition duration-700 ease-in-out hover:scale-105"
+                            src="Images/relax.png" alt="Search and reserve image" />
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-extrabold uppercase text-center">Relax</h3>
+                        <p class="block text-center text-gray-500 font-normal">You'll receive
+                            regular<br>updates,including lots of<br>photos and videos</p>
+                    </div>
+                </div>
+                <!-- card end here -->
+            </div>
+
+            <div class="background_path_image absolute z-99 top-20">
+                <img src="Images/Path.png" alt="path image" />
+            </div>
+
+            <div class="flex flex-row justify-center items-center py-4">
+                <button
+                    class="transition duration-500 ease-in-out bg-blue-700 py-3 px-5 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Search
+                    a Sitter</button>
+            </div>
+        </section>
+
+        <!-- End meowtel works section  -->
+
+
+
+        <!-- Start Achievements Section -->
+
+        <section class="px-5">
+
+            <div class="flex flex-col justify-center items-center pb-8">
+                <h1 class="text-4xl text-center pb-3">Our <b class="font-extrabold">Achievements</b></h1>
+                <p class="text-gray-500 font-normal text-center">Cats don't do well outside of their home environment.
+                    Our cat sitters <br> bring the purrfect hospitality to you</p>
+            </div>
+
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+
+                <!-- left part  -->
+                <div class="col-span-1">
+                    <img class="home_page_cat_image" src="Images/cat.png" alt="cat image" />
+                </div>
+
+                <!-- right part  -->
+                <div class="col-span-1">
+                    <div class="grid grid-cols-2 gap-16">
+
+                        <div class="grid grid-cols-1 gap-10">
+                            <div class="bg-yellow-100 rounded-xl shadow-md box-border p-8">
+                                <div class="flex flex-col justify-center items-center py-9">
+                                    <h1 class="text-5xl text-yellow-400 font-bold">5000+</h1>
+                                    <h3 class="text-md font-semibold  text-yellow-400">Happy Clients</h3>
+                                </div>
+                            </div>
+
+                            <div class="bg-blue-100 rounded-xl shadow-md box-border p-8">
+                                <div class="flex flex-col justify-center items-center py-9">
+                                    <h1 class="text-5xl text-blue-600 font-bold">200+</h1>
+                                    <h3 class="text-md font-semibold  text-blue-600">Locations <span>(usa)</span></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews_card">
+                            <div class="bg-green-100 rounded-xl shadow-md box-border p-8">
+                                <div class="flex flex-col justify-center items-center py-9">
+                                    <h1 class="text-5xl text-green-600 font-bold">250+</h1>
+                                    <div class="flex flex-row items-center">
+                                        <img class="greenstariconImage" src="Images/stargreen.png" alt="start image" />
+                                        <span class="text-md font-semibold text-green-600">Trustpilot (Reviews)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- End Achievements Section -->
+
+
+        <!-- Start Cat Sitters Near you section -->
+        <section class="px-5 near_you_section py-9">
+
+            <div class="flex flex-col justify-center items-center pb-8">
+                <h1 class="text-4xl text-center pb-3">Featured cat sitters <b class="font-extrabold">Near you</b></h1>
+            </div>
+
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-6">
+
+                <!-- Start 1st Cat Sitters Card  -->
+                <div class="border border-gray-300 rounded-2xl sitters_card shadow-md">
+                    <div class="overflow-hidden rounded-2xl relative">
+                        <img class="transform transition duration-700 ease-in-out alaxas_image rounded-tl-2xl rounded-tr-2xl hover:scale-125"
+                            src="Images/alexa.jpg" alt="Alexa's Picture" />
+
+                        <span
+                            class="bg-yellow-400 text-white rounded-lg py-1 px-2 absolute top-5 right-0 font-bold">From
+                            $30</span>
+                    </div>
+
+                    <div class=" bg-white box-border p-3 relative -top-10 card_info">
+                        <h1 class="text-xl font-extrabold text-center">Alexa's Grand</h1>
+
+                        <div class="flex flex-row justify-center">
+
+                            <div class="flex flex-row items-center">
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <span class="pl-4">(78)</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row justify-center py-4">
+                            <button
+                                class="transition duration-500 ease-in-out bg-blue-700 py-3 px-7 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End 1st Cat Sitters Card  -->
+
+
+
+                <!-- Start 2nd Cat Sitters Card  -->
+                <div class="border border-gray-300 rounded-2xl sitters_card shadow-md">
+                    <div class="overflow-hidden rounded-2xl relative">
+                        <img class="transform transition duration-700 ease-in-out alaxas_image rounded-tl-2xl rounded-tr-2xl hover:scale-125"
+                            src="Images/jesmin.jpg" alt="Jesmin's Picture" />
+
+                        <span
+                            class="bg-yellow-400 text-white rounded-lg py-1 px-2 absolute top-5 right-0 font-bold">From
+                            $30</span>
+                    </div>
+
+                    <div class=" bg-white box-border p-3 relative -top-10 card_info">
+                        <h1 class="text-xl font-extrabold text-center">Jesmin Merisa</h1>
+
+                        <div class="flex flex-row justify-center">
+
+                            <div class="flex flex-row items-center">
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <span class="pl-4">(78)</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row justify-center py-4">
+                            <button
+                                class="transition duration-500 ease-in-out bg-blue-700 py-3 px-7 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End 2nd Cat Sitters Card  -->
+
+
+                <!-- Start 3rd Cat Sitters Card  -->
+                <div class="border border-gray-300 rounded-2xl sitters_card shadow-md">
+                    <div class="overflow-hidden rounded-2xl relative">
+                        <img class="transform transition duration-700 ease-in-out alaxas_image rounded-tl-2xl rounded-tr-2xl hover:scale-125"
+                            src="Images/Maria.jpg" alt="Maria's Picture" />
+
+                        <span
+                            class="bg-yellow-400 text-white rounded-lg py-1 px-2 absolute top-5 right-0 font-bold">From
+                            $30</span>
+                    </div>
+
+                    <div class=" bg-white box-border p-3 relative -top-10 card_info">
+                        <h1 class="text-xl font-extrabold text-center">Maria Costa</h1>
+
+                        <div class="flex flex-row justify-center">
+
+                            <div class="flex flex-row items-center">
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <span class="pl-4">(78)</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row justify-center py-4">
+                            <button
+                                class="transition duration-500 ease-in-out bg-blue-700 py-3 px-7 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End 3rd Cat Sitters Card  -->
+
+
+
+                <!-- Start 4th Cat Sitters Card  -->
+                <div class="border border-gray-300 rounded-2xl sitters_card shadow-md z-1">
+                    <div class="overflow-hidden rounded-2xl relative">
+                        <img class="transform transition duration-700 ease-in-out alaxas_image rounded-tl-2xl rounded-tr-2xl hover:scale-125"
+                            src="Images/lexi.jpg" alt="lexi's Picture" />
+
+                        <span
+                            class="bg-yellow-400 text-white rounded-lg py-1 px-2 absolute top-5 right-0 font-bold">From
+                            $30</span>
+                    </div>
+
+                    <div class=" bg-white box-border p-3 relative -top-10 card_info">
+                        <h1 class="text-xl font-extrabold text-center">Lexi Dacota</h1>
+
+                        <div class="flex flex-row justify-center">
+
+                            <div class="flex flex-row items-center">
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <img class="yellow_star_image" src="Images/yellowstar.png" alt="review star image" />
+                                <span class="pl-4">(78)</span>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-row justify-center py-4">
+                            <button
+                                class="transition duration-500 ease-in-out bg-blue-700 py-3 px-7 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Book
+                                Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- End 4th Cat Sitters Card  -->
+            </div>
+
+            <div class="flex flex-row justify-center items-center pt-8">
+                <span class="ml-2 w-4 h-4 rounded-full bg-yellow-400 cursor-pointer"></span>
+                <span
+                    class="ml-2 w-4 h-4 rounded-full border border-gray-300 cursor-pointer hover:bg-yellow-400"></span>
+                <span
+                    class="ml-2 w-4 h-4 rounded-full border border-gray-300 cursor-pointer hover:bg-yellow-400"></span>
+                <span
+                    class="ml-2 w-4 h-4 rounded-full border border-gray-300 cursor-pointer hover:bg-yellow-400"></span>
+            </div>
+
+        </section>
+        <!-- End Cat Sitters Near you section -->
+
+
+
+        <!-- Start why meowtel section  -->
+        <section class="px-5 bg-gray-100">
+
+            <div class="flex flex-col justify-center items-center py-8">
+                <h1 class="text-4xl text-center pb-3">Why <b class="font-extrabold">Meowtel?</b></h1>
+            </div>
+
+
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-6">
+
+                <!-- Start 1st card  -->
+                <div class="why_sitters_card workscard">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="Images/Trust.png" alt="trust Image"/>
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-black text-lg text-center pb-2">Trust,First & Foremost</h3>
+                        <p class="block text-center text-gray-500 font-semibold text-sm">Your Trust and Kitty's safety<br>is our top Priority.Out sitters<br>ensure safely of your kitty</p>
+                    </div>
+
+                </div>
+                <!-- End 1st Card  -->
+
+                <!-- Start 2nd Card -->
+                <div class="why_sitters_card workscard">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="Images/24help.png" alt="trust Image"/>
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-black text-lg text-center pb-2">Premium Insurance</h3>
+                        <p class="block text-center text-gray-500 font-semibold text-sm">We provide all of our cat<br>sitters and cat owners with<br>a Premium Insurance</p>
+                    </div>
+
+                </div>
+                <!-- End 2nd Card -->
+
+                <!-- Start 3rd Card -->
+                <div class="why_sitters_card workscard">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="Images/budgetFriendly.png" alt="trust Image"/>
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-black text-lg text-center pb-2">Budget Friendly</h3>
+                        <p class="block text-center text-gray-500 font-semibold text-sm">Prices start from $20 for 20-<br>minutes of in-home cat<br>sitting and overnight says</p>
+                    </div>
+
+                </div>
+                <!-- End 3rd Card -->
+
+                <!-- Start 4th Card -->
+                <div class="why_sitters_card workscard">
+                    <div class="flex flex-col justify-center items-center">
+                        <img src="Images/24help.png" alt="trust Image"/>
+                    </div>
+
+                    <div class="py-4">
+                        <h3 class="font-black text-lg text-center pb-2">24x7 Help Line</h3>
+                        <p class="block text-center text-gray-500 font-semibold text-sm">our Bellhop team is always<br>available for you and your<br>kitty 24/7</p>
+                    </div>
+
+                </div>
+                <!-- End 4th Card -->
+            </div>
+
+            <div class="flex flex-row justify-center py-9 space-x-6">
+                    <button
+                    class="transition duration-500 ease-in-out bg-blue-700 py-3 px-7 rounded-lg shadow-lg text-white hover:bg-white hover:text-blue-700 focus:outline-none">Search a Sitter</button>
+
+                    <button
+                    class="transition duration-500 ease-in-out text-blue-700 border border-blue-700 py-3 px-7 rounded-lg shadow-lg  hover:bg-blue-700 hover:text-white focus:outline-none">Become a Sitter</button>
+            </div>
+        </section>
+        <!-- End why meowtel section  -->
+
+
+
+
+        <!-- Start Ads Section  -->
+
+         <section class="px-5 relative">
+
+            <div class="">
+                <div class="grid grid-cols-2 ads_Banner">
+
+                    <div class="">
+                        <h3>Our Purrfect Hospitality Promise: <b>100% </b>satisfaction <br>or we'll issue you a full refund</h3>
+                    </div>
+
+                    <div class="">
+                        <button>Learn More</button>
+                    </div>
+                </div>
+            </div>
+
+         </section>
+        <!-- End Ads Section  -->
+    </main>
+</body>
+
+</html>
