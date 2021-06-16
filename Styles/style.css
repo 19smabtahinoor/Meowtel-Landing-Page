@@ -57,27 +57,30 @@ i[class*="sprite-"] {
   display: block;
 }
 .sprite {
-  background-image: url(spritesheet.png);
+  background-image: url("../spritesheet.png");
   background-repeat: no-repeat;
   display: block;
 }
 
 .sprite-fb {
-  width: 56px;
-  height: 56px;
-  background-position: -5px -5px;
+  width: 55px;
+  height: 44px;
+  background-position: -14px -10px;
+  border-radius: 10px;
 }
 
 .sprite-instagram {
-  width: 56px;
-  height: 56px;
-  background-position: -71px -5px;
+  width: 55px;
+  height: 44px;
+  background-position: -79px -10px;
+  border-radius: 10px;
 }
 
 .sprite-twitter {
-  width: 56px;
-  height: 56px;
-  background-position: -137px -5px;
+  width: 55px;
+  height: 44px;
+  background-position: -145px -10px;
+  border-radius: 10px;
 }
 
 /*end of CSS sprites */
