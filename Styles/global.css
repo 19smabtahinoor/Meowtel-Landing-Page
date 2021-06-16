@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Quicksand", sans-serif;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50px;
+}
+body::-webkit-scrollbar-thumb {
+  background: #fbbf24;
+}
+
+
+
+.workscard {
+  box-shadow: -42px 20px 60px #bebebe69, -20px -20px 60px #ffffff;
+}
+.workscard img {
+  padding-top: 19px;
+}
+
+.background_path_image {
+  top: 44% !important;
+  z-index: -1;
+}
+
+.card_image_1 {
+  left: -20px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+.card_image_1 h1 {
+  font-size: 150px;
+}
+
+.greenstariconImage {
+  width: 30px;
+  height: 30px;
+}
+/*CSS sprites */
+i[class*="sprite-"] {
+  display: block;
+}
+.sprite {
+  background-image: url("../spritesheet.png");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite-fb {
+  width: 55px;
+  height: 44px;
+  background-position: -14px -10px;
+  border-radius: 10px;
+}
+
+.sprite-instagram {
+  width: 55px;
+  height: 44px;
+  background-position: -79px -10px;
+  border-radius: 10px;
+}
+
+.sprite-twitter {
+  width: 55px;
+  height: 44px;
+  background-position: -145px -10px;
+  border-radius: 10px;
+}
+
+/*end of CSS sprites */
+.reviews_card {
+  margin-top: 50%;
+}
+
+.yellow_star_image {
+  width: 15px;
+}
+.alaxas_image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.sitters_card {
+  /* width:250px; */
+  height: 410px;
+  z-index: 999;
+  background: #fff;
+}
+.why_sitters_card {
+  height: 350px;
+}
+.card_info {
+  height: 118px;
+}
+.near_you_section {
+  background-image: url("../Images/halfcircle.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right 0% bottom 45%;
+  z-index: -1;
+}
+
+.adsbanner {
+  background-image: url("../Images/banner.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  border-radius: 20px;
+}
+
+.bannerCatImage {
+  top: -16.5%;
+  right: 57px;
+}
+.adsBanner2 {
+  background-image: url("../Images/bannerbg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.bannerwoman_Image {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
+.app_download_Image {
+  width: 150px;
+}
+.trustPilot {
+  width: 150px;
+}
+.cat_Image {
+  width: 259px;
+  position: relative;
+  margin-top: -44%;
+}
+.br-0 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.bl-0 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+/* .testmonial_section{
+    background-image:url("../Images/halfcircle.png");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position: left 0% bottom 45%;
+} */
+
+.customer_Image {
+  position: relative;
+  top: -25%;
+  /* left: 42%;
+    transform: translateX(-50%,-50%);
+    width: 121px; */
+}
+/*.rounded-full{*/
+/*    background: #FBBF24;*/
+/*}*/
+
+.col-span-1.workscard.bg-white.rounded-xl.shadow-lg.box-border.p-8 {
+  margin-top: 20%;
+}
+
+.tesimonial_card {
+  box-shadow: 42px 42px 99px #c5c5c5, -42px -42px 99px #fbfbfb;
+}
+
+.col-span-1.second_divison {
+  margin-top: 29%;
+  padding-left: 25%;
+}
+
+.col-span-1.third_division {
+  padding-top: 29%;
+  padding-left: 2%;
+}
+.fourth_divison {
+  padding-top: 25%;
+}
+
+.social_icons {
+  width: 30px;
+  height: 30px;
+}
+
+.footerImage {
+  margin-top: -102%;
+  display: block;
+}
+
+.payment_card {
+  width: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .col-span-1.second_divison {
+    padding-top: 29%;
+    padding-left: 0px;
+  }
+  .footerImage {
+    display: none;
+  }
+  .adsbanner {
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+  }
+  .bannerCatImage {
+    top: -14.5%;
+    right: 57px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .footerImage {
+    display: none;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .footerImage {
+    display: none;
+  }
+}

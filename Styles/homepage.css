@@ -1,0 +1,11 @@
+/* home page styling */
+.home_page_cat_image {
+    width: 500px;
+    height: 600px;
+    object-fit: contain;
+  }
+  
+  .searchInputs {
+    /* border-right:1px solid #00000040; */
+    width: 200px;
+  }
